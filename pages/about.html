@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Zara Capital Investment Ltd</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../images/zaraLogo4X25.jpg"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/index.js" defer></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Nav -->
+    <nav class="relative mx-auto p-6 bg-gray-50 text-lg">
+      <!-- Flex for logo/menu -->
+      <div class="flex items-center justify-between">
+        <!-- Flex Container For Logo/Menu -->
+        <div class="flex items-center space-x-20">
+          <!-- Logo -->
+          <div class="flex container">
+            <img
+              src="../images/zaraLogo4X25.jpg"
+              alt="logo"
+              class="flex h-8 w-8"
+            />
+
+            <a
+              href="../index.html"
+              class="text-base ml-2 hover:text-softOrange lg:text-2xl"
+              >Zara Capital Investment Limited</a
+            >
+          </div>
+        </div>
+
+        <!-- Right buttons -->
+        <!-- left menu -->
+        <div class="hidden space-x-16 text-lg lg:flex">
+          <a
+            href="#"
+            class="hover:text-softOrange hover:border-b hover:border-softie"
+            >About</a
+          >
+          <a
+            href="../index.html#services"
+            class="border-b-2 border-transparent hover:border-softie hover:text-softOrange transition"
+            >Services</a
+          >
+          <a
+            href="../index.html#faq"
+            class="border-b-2 border-transparent hover:border-softie hover:text-softOrange transition"
+            >FAQs</a
+          >
+          <a
+            href="../index.html#contact"
+            class="border-b-2 border-transparent hover:border-softie hover:text-softOrange transition"
+            >Contact</a
+          >
+        </div>
+
+        <div
+          class="hidden relative items-center space-x-6 font-bold text-grayishViolet lg:flex"
+          id="dropdownButton"
+        >
+          <button
+            type="button"
+            class="flex px-8 py-3 font-bold text-white bg-softOrange rounded-full hover:opacity-70"
+          >
+            Open Account
+            <svg
+              class="-mr-1 ml-2 h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
+
+          <!-- Dropdown Menu -->
+          <div
+            id="dropdownMenu"
+            class="hidden absolute z-50 mt-36 w-full rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          >
+            <div class="py-1">
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-softie"
+                >Savings Account</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-softie"
+                >Loans Account</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Hamburger button -->
+        <button
+          id="menu-btn"
+          class="z-30 block lg:hidden focus:outline-none hamburger"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-gray-600"
+      >
+        <div class="w-full py-3 text-center">
+          <a href="#about" class="block hover:text-softie">About</a>
+        </div>
+
+        <div class="w-full py-3 text-center">
+          <a href="#services" class="block hover:text-softie">Services</a>
+        </div>
+
+        <div class="w-full py-3 text-center">
+          <a href="#" class="block hover:text-softie">FAQs</a>
+        </div>
+
+        <div class="w-full py-3 text-center">
+          <a href="#" class="block hover:text-softie">Contact</a>
+        </div>
+
+        <div class="w-full py-3 text-center">
+          <a href="#" class="block hover:text-softie">Create Account</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section
+      class="relative bg-heroo bg-cover bg-center h-[50vh] flex items-center justify-center"
+    >
+      <div class="absolute inset-0 bg-black/50"></div>
+      <h1
+        class="relative z-10 text-3xl lg:text-6xl font-bold text-white text-center"
+      >
+        About <span class="text-softOrange">Zara Capital</span>
+      </h1>
+    </section>
+
+    <!-- Company Story -->
+    <section
+      class="max-w-[1440px] container mx-auto px-6 py-16 flex flex-col md:flex-row items-center"
+    >
+      <!-- left content (text) -->
+      <div class="md:w-1/2">
+        <h1 class="text-3xl font-raleway font-bold md:text-5xl">Our Story</h1>
+        <p class="mt-4 text-gray-600">
+          Founded in 2014, Zara Capital Investment Limited has rapidly
+          established itself as a trusted name in the financial services sector.
+        </p>
+      </div>
+
+      <!-- right content (image) -->
+      <div class="md:w-1/2 mt-10 md:mt-0 md:pl-10 flex justify-center">
+        <img src="../images/founder.jpg" alt="Founder" class="shadow-lg" />
+      </div>
+    </section>
+
+    <!-- History Section -->
+    <section
+      class="max-w-full container mx-auto px-6 py-16 flex flex-col md:flex-row items-center"
+    >
+      <!-- right content (image) -->
+      <div
+        class="hidden md:w-1/2 mt-10 md:mt-0 md:pl-10 lg:flex justify-center"
+      >
+        <img src="../images/founder.jpg" alt="Founder" class="shadow-lg" />
+      </div>
+
+      <!-- left content (text) -->
+      <div class="md:w-1/2 text-center px-4 lg:text-left">
+        <h1 class="text-3xl font-raleway font-bold md:text-5xl">Our History</h1>
+        <p class="mt-4 text-gray-600">
+          Founded in 2014, Zara Capital Investment Limited has rapidly
+          established itself as a trusted name in the financial services sector.
+          Our journey began with a vision to provide accessible and innovative
+          financial solutions to individuals and businesses alike.
+        </p>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-12 pb-10">
+      <div class="container bg-white mx-auto px-4 text-center pb-10">
+        <h2 class="text-3xl font-bold mb-10 pt-5">Our Team</h2>
+
+        <!-- CEO Section -->
+        <div class="flex flex-col items-center justify-center pb-28">
+          <div class="w-32 h-32 bg-gray-300 rounded-full overflow-hidden mb-4">
+            <img
+              src="../images/undraw_chill-guy-avatar_tqsm.svg"
+              alt="CEO"
+              class="object-cover w-full h-full"
+            />
+          </div>
+          <h3 class="text-xl font-semibold">John Doe</h3>
+          <p class="text-gray-500">Chief Executive Officer</p>
+        </div>
+
+        <!-- Team Members -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-between text-lg py-8 md:space-x-6 space-y-6 md:space-y-0"
+        >
+          <!-- Item 1 -->
+          <div
+            class="flex flex-col items-center justify-center space-y-3 px-6 py-4 w-full text-center"
+          >
+            <div
+              class="w-24 h-24 bg-gray-300 rounded-full overflow-hidden mb-4"
+            >
+              <img
+                src="../images/undraw_chill-guy-avatar_tqsm.svg"
+                alt="Member 1"
+                class="object-cover w-full h-full"
+              />
+            </div>
+            <h4 class="text-lg font-medium">Member 1</h4>
+            <p class="text-gray-500 text-sm">Designer</p>
+          </div>
+
+          <!-- Item 2 -->
+          <div
+            class="flex flex-col items-center justify-center space-y-3 px-6 py-4 w-full text-center"
+          >
+            <div
+              class="w-24 h-24 bg-gray-300 rounded-full overflow-hidden mb-4"
+            >
+              <img
+                src="../images/undraw_chill-guy-avatar_tqsm.svg"
+                alt="Member 2"
+                class="object-cover w-full h-full"
+              />
+            </div>
+            <h4 class="text-lg font-medium">Member 2</h4>
+            <p class="text-gray-500 text-sm">Developer</p>
+          </div>
+
+          <!-- Item 3 -->
+          <div
+            class="flex flex-col items-center justify-center space-y-3 px-6 py-4 w-full text-center"
+          >
+            <div
+              class="w-24 h-24 bg-gray-300 rounded-full overflow-hidden mb-4"
+            >
+              <img
+                src="../images/undraw_chill-guy-avatar_tqsm.svg"
+                alt="Member 3"
+                class="object-cover w-full h-full"
+              />
+            </div>
+            <h4 class="text-lg font-medium">Member 3</h4>
+            <p class="text-gray-500 text-sm">Marketing</p>
+          </div>
+
+          <!-- Item 4 -->
+          <div
+            class="flex flex-col items-center justify-center space-y-3 px-6 py-4 w-full text-center"
+          >
+            <div
+              class="w-24 h-24 bg-gray-300 rounded-full overflow-hidden mb-4"
+            >
+              <img
+                src="../images/undraw_chill-guy-avatar_tqsm.svg"
+                alt="Member 4"
+                class="object-cover w-full h-full"
+              />
+            </div>
+            <h4 class="text-lg font-medium">Member 4</h4>
+            <p class="text-gray-500 text-sm">Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-softOrange text-white py-16 text-center">
+      <h2 class="text-3xl font-bold mb-6">Ready to Start Your Journey?</h2>
+      <a
+        href="../index.html#services"
+        class="bg-white text-softOrange font-semibold py-3 px-6 rounded-full hover:opacity-80"
+      >
+        Explore Our Services
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-300 text-black">
+      <div class="container mx-auto pt-12 px-5 pb-10">
+        <!-- Flex container for all Items-->
+        <div
+          class="flex flex-col justify-between space-y-24 md:flex-row md:space-y-0"
+        >
+          <!-- Email & Phone -->
+          <div class="mt-10 space-y-6">
+            <div class="flex items-center space-x-3 md:-mt-10">
+              <div class="w-6">
+                <img src="/images/icon-phone.svg" alt="" class="scale-10" />
+              </div>
+              <div>+234 806 9195 112</div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <div class="w-6">
+                <img src="/images/icon-email.svg" alt="" class="scale-10" />
+              </div>
+              <div>support@zaracapitalinvestment.com</div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <div class="w-6">
+                <img src="/images/icon-location.svg" alt="" class="scale-10" />
+              </div>
+              <div>🇳🇬 Labour House, 29, Olajuwon Street, Yaba, Lagos</div>
+            </div>
+          </div>
+
+          <!-- Menus -->
+          <div
+            class="flex flex-col space-y-10 text-xl md:text-base md:space-x-20 md:space-y-0 md:flex-row"
+          >
+            <div class="flex flex-col space-y-3">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Electronics</a>
+              <a href="#">FAQ</a>
+            </div>
+
+            <div class="flex flex-col space-y-3">
+              <a href="#">Contact Us</a>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+            </div>
+          </div>
+
+          <!-- Socials -->
+          <div
+            class="flex flex-col items-start justify-between space-y-4 text-gray-500"
+          >
+            <!-- icons container -->
+            <div
+              class="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0"
+            >
+              <!-- icon 1 -->
+              <div class="h-8 group">
+                <a href="#">
+                  <img
+                    src="images/icon-facebook.svg"
+                    alt=""
+                    class="h-6 ficon"
+                  />
+                </a>
+              </div>
+
+              <!-- icon 2 -->
+              <div class="h-8 group">
+                <a href="#">
+                  <img src="images/icon-twitter.svg" alt="" class="h-6 ficon" />
+                </a>
+              </div>
+
+              <!-- icon 3 -->
+              <div class="h-8 group">
+                <a href="#">
+                  <img src="images/instagram.svg" alt="" class="h-7 ficon" />
+                </a>
+              </div>
+            </div>
+
+            <!-- copyright -->
+          </div>
+        </div>
+
+        <div
+          class="mt-16 border-t-2 border-gray-400 pt-10 text-center justify-center"
+        >
+          &copy 2025 Zara Capital Investment Limited. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
