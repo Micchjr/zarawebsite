@@ -168,7 +168,10 @@
         </div>
       </div>
 
-      <div class="flex flex-col-reverse md:flex-row items-center">
+      <div
+        style="display: flex; flex-direction: column-reverse"
+        class="items-center custom-flex-direction"
+      >
         <!-- left content -->
 
         <div class="md:w-1/2 px-10">
@@ -188,6 +191,13 @@
           <img src="../images/savebox.jpg" alt="savebox" class="" />
         </div>
       </div>
+      <style>
+        @media (min-width: 768px) {
+          .custom-flex-direction {
+            flex-direction: row !important;
+          }
+        }
+      </style>
     </section>
 
     <!-- Newsletter Section -->
