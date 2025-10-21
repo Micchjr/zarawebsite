@@ -12,7 +12,6 @@ module.exports = {
         softOrange: "hsl(20, 100%, 64%)",
         softie: "#E09341",
         softie2: "#552C17",
-        // softie3: "#b9cccf",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
